@@ -48,7 +48,7 @@ public class Otomobil {
 		this.model = model;
 		this.yil = yil;
 		this.depoHacmi = depoHacmi;
-	}
+	}   
 	
 	public String getAllOtomobilBilgileri() {
 		String tumOtomobilBilgileri;
@@ -137,7 +137,9 @@ public class Otomobil {
 	}
 	
 	
-	
+	public void bilgileriYaz(Motor motor) {
+		
+	}
 	
 	
 	

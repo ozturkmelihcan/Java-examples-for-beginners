@@ -3,7 +3,12 @@ package IcIceMetodlardaExceptionHandling;
 public class Main {
 
 	public void function3() {
-		int x = 20 / 0;
+		try {
+			int x = 20 / 0;
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
 		System.out.println("function 3 ");
 	}
 	
@@ -21,9 +26,9 @@ public class Main {
 		
 		
 		Main main = new Main();
-	//	main.function1();   // java.lang.ArithmeticException: hatası verir.
+		main.function1();   // java.lang.ArithmeticException: hatası verir.
 	//	main.function2();
-		main.function3();
+		// main.function3();
 	}
 
 }

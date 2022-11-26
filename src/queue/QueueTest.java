@@ -4,6 +4,9 @@ public class QueueTest {
 
 	public static void main(String[] args) {
 		
+		
+		
+		
 		Queue queue = new Queue(7);
 		queue.enqueue(25);
 		queue.enqueue(56);
@@ -12,7 +15,8 @@ public class QueueTest {
 		queue.enqueue(14);
 		queue.enqueue(36);
 		queue.enqueue(98);
-
+		
+		
 		
 		queue.dequeue();
 		queue.dequeue();
